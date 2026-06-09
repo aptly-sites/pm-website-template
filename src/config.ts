@@ -28,7 +28,7 @@ export const site = {
   // Navigation links
   nav: [
     { label: "Services", href: "#services" },
-    { label: "Rental Search", href: "#rentals" },
+    { label: "Rental Search", href: "/rentals" },
     { label: "About", href: "#about" },
     { label: "Testimonials", href: "#testimonials" },
     { label: "Contact", href: "#contact" },

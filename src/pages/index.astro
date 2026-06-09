@@ -83,28 +83,6 @@ import { site } from '../config';
     </div>
   </section>
 
-  <!-- RENTAL SEARCH -->
-  {site.listingsWidgetUrl && (
-    <section class="section" id="rentals" style="background:var(--color-surface);border-top:1px solid #edf0f5;">
-      <div class="container">
-        <div class="section-label">Available Rentals</div>
-        <h2 class="section-title">Find Your Next Home</h2>
-        <p class="section-sub">Browse our available rentals and apply online in minutes.</p>
-        <div style="border-radius:16px;overflow:hidden;border:1px solid #edf0f5;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
-          <iframe
-            src={site.listingsWidgetUrl}
-            width="100%"
-            height="800"
-            frameborder="0"
-            style="display:block;"
-            title="Available Rentals"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </section>
-  )}
-
   <!-- ABOUT -->
   <section class="section" id="about" style="background:var(--color-surface);border-top:1px solid #edf0f5;border-bottom:1px solid #edf0f5;">
     <div class="container">
