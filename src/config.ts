@@ -4,13 +4,16 @@
 
 export const site = {
   // Company info
-  companyName: "ACME Property Management",
+  companyName: "Peak Properties",
   tagline: "Property Management You Can Trust",
   description:
     "Professional residential and commercial property management serving the greater Dayton area.",
   phone: "(937) 555-0100",
-  email: "hello@acmeproperty.com",
+  email: "hello@peakproperties.com",
   address: "123 Main St, Dayton, OH 45402",
+
+  // Rental search widget — set to your Aptly listings portal URL, or leave empty to hide the tab
+  listingsWidgetUrl: "https://portal.getaptly.com/search/grWTDBRgQ4gjJXBa3",
 
   // Branding — swap these hex codes or use Tailwind color names
   colors: {
@@ -25,6 +28,7 @@ export const site = {
   // Navigation links
   nav: [
     { label: "Services", href: "#services" },
+    { label: "Rental Search", href: "#rentals" },
     { label: "About", href: "#about" },
     { label: "Testimonials", href: "#testimonials" },
     { label: "Contact", href: "#contact" },
