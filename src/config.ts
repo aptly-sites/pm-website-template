@@ -12,6 +12,9 @@ export const site = {
   email: "hello@peakproperties.com",
   address: "123 Main St, Dayton, OH 45402",
 
+  // Company logo — set to /images/logo.png (or .jpg/.svg) once deployed, or leave empty to show text name
+  logoPath: "",
+
   // Rental search widget — set to your Aptly listings portal URL, or leave empty to hide the tab
   listingsWidgetUrl: "https://portal.getaptly.com/search/grWTDBRgQ4gjJXBa3",
 
